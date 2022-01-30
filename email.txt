@@ -1,0 +1,7 @@
+Spróbuj napisać prosty widok logowania, maksymalnie podobny jak poniżej. Wiadomo, rodzaj fontów, kolorów, nie musi być identyczny chodzi mi o sam układ. Wykorzystaj wszystkie znane Ci techniki pozycjonowania elementów na stronie. Jeżeli ogarniasz media-query, zrób wersję mobilną/desktopową (ta poniżej z szarym tłem zakładamy że jest desktopowa). 
+
+Jeżeli chodzi o JavaScript, zrób pobranie loginu i hasła z formularza i wysłanie go pod jakiś fejkowy adres za pomocą Ajax. 
+
+Oczywiście ile zrobisz, tyle zrobisz :)
+
+W razie pytań jestem do dyspozycji

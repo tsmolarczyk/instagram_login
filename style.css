@@ -104,6 +104,7 @@ body {
     display: block;
     text-align: center;
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .login__options .login__options--2 {
@@ -135,21 +136,76 @@ body {
 
 /* DOWNLOAD */
 .download {
-    margin: .5rem auto ;
+    margin: 5rem auto ;
     width: 45rem;
     height: 20rem;
     position: relative;
 }
  
-.download__button {
-    width: 20rem;
-    background-color: red;
-    position: absolute;
-}
-.download__button--1 {
-    margin-left: 20rem;
+.download__title {
+    text-align: center;
 }
 
-/* .download__button--2 {
-    margin-right: 20rem;
-} */
+
+/* absolute - ale sie rozjezdza, normalnie uzylbym flexa ? nie jest na srodku. 
+
+Dodatkowo rozne rozmiary obrazow*/
+
+
+.download__button {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 5rem;   
+    margin-top: 1rem;
+}
+.download__button:hover {
+   cursor:pointer; 
+}
+
+.download__button--1 {
+    background-image: url(./src/googleplay.png);
+    position: absolute;
+    right: 5rem;
+    
+
+}
+
+.download__button--2 {
+    background-image: url(./src/appstore.png);
+    position: absolute;
+    left: 5rem;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 75%;
+    margin: 5rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer__link {
+    padding: 1rem 2rem;
+    color: rgb(4, 52, 92);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.footer__date {
+    color:grey;
+    margin: 3rem 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
