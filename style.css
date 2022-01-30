@@ -27,13 +27,13 @@ body {
 
 }
 
-.login-basic {
+.login__basic {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.login-title {
+.login__title {
     background-image: url(./src/logo_instagram.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -49,7 +49,7 @@ body {
 
 /* LOGIN - BASIC WAY */
 
-.login-input {
+.login__input {
     display: block;
     margin-bottom: 1rem;
     width: 80%;
@@ -60,7 +60,7 @@ body {
     padding: 5px;
 }
 
-.login-enter {
+.login__enter {
     display: block;
     width: 80%;
     background-color: rgb(45,149,246) ;
@@ -76,7 +76,7 @@ body {
 
 /* OTHER LOGIN OPTION */
 
-.login-different {
+.login__different {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@ body {
     padding:0 10px; 
 }
 
-.login-options a {
+.login__options a {
     text-decoration: none;
     color: rgb(56,81,133);
     display: block;
@@ -104,14 +104,14 @@ body {
     font-size: 2rem;
 }
 
-.login-options .login-options__2 {
+.login__options .login__options--2 {
     font-size: 1.5rem;
     padding: 2rem;
 }
 
 /* CREATE ACCOUNT */
 
-.create-account {
+.create__account {
     margin: 5rem auto ;
     width: 45rem;
     background-color: rgba(255,255,255);
