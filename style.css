@@ -17,6 +17,17 @@ body {
     font-size: 3rem;
     
 }
+.general {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10rem auto;
+}
+
+.left img {
+    height: 80rem;
+    margin: 5rem;
+}
 
 .login {
     margin: 5rem auto 1rem;
@@ -24,7 +35,6 @@ body {
     background-color: rgba(255,255,255);
     border: 1px solid rgb(219,219,219);
     border-radius: 1px;
-
 }
 
 .login__basic {
@@ -71,6 +81,7 @@ body {
     text-align: center;
     font-weight: 400;
     border-radius: 7px;
+    margin-top: 1rem;
 }
 
 
@@ -209,3 +220,8 @@ Dodatkowo rozne rozmiary obrazow*/
     text-transform: uppercase;
     font-weight: 400;
 }
+
+@media  (max-width: 1200px) {
+  .left {
+    display: none;
+  }
