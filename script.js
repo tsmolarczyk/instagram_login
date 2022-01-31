@@ -1,10 +1,10 @@
 const enter = document.getElementById("login__enter");
-let input_user = document.getElementById('login__user');
-let input_password = document.getElementById('login__password')
+let inputUser = document.getElementById('login__user');
+let inputPassword = document.getElementById('login__password')
 
 enter.addEventListener('click', function() {
-    let user = input_user.value;
-    let password = input_password.value;
+    let user = inputUser.value;
+    let password = inputPassword.value;
     console.log(`user: ${user} 
 password: ${password}`);
     }
